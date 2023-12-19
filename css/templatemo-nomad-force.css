@@ -11,7 +11,7 @@ https://templatemo.com/tm-567-nomad-force
 -----------------------------------------*/
 :root {
   --white-color:                  #FFFFFF;
-  --primary-color:                #ffc107;
+  --primary-color:                #008080;
   --section-bg-color:             #f9f9f9;
   --dark-color:                   #000000;
   --grey-color:                   #fcfeff;
@@ -67,6 +67,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: 'Questrial', sans-serif;
   font-weight: var(--font-weight-bold);
 }
 
@@ -81,6 +82,7 @@ h1 {
 }
 
 h2 {
+  font-family: 'Cormorant', serif;
   font-size: var(--h2-font-size);
 }
 
@@ -101,6 +103,7 @@ h6 {
 }
 
 p {
+  font-family: 'Questrial', sans-serif;
   color: var(--p-color);
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-light);
@@ -118,6 +121,7 @@ button {
 }
 
 a {
+  font-family: 'Questrial', sans-serif;
   color: var(--p-color);
   text-decoration: none;
 }
@@ -598,7 +602,7 @@ strong {
   SITE FOOTER               
 -----------------------------------------*/
 .site-footer {
-  background: var(--dark-color);
+  background: #008080;
   padding-top: 4.5rem;
   padding-bottom: 2.5rem;
 }
