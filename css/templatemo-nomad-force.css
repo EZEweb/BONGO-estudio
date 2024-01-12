@@ -144,7 +144,7 @@ a:hover {
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
+  height: 540px;
   z-index: -100;
 }
 
@@ -559,6 +559,15 @@ strong {
   padding-bottom: 7rem;
 }
 
+.section-padding-2 .row .logos {
+  display: inline;
+  padding: 0 22% 0 22%;
+}
+
+.section-padding-2 .row .logos img{
+  padding: 2%;
+}
+
 /*---------------------------------------
   CONTACT              
 -----------------------------------------*/
@@ -638,7 +647,7 @@ strong {
 
 .social-icon-link {
   color: rgba(255, 255, 255, 0.45);
-  font-size: 1rem;
+  font-size: 2rem;
   display: inline-block;
   vertical-align: top;
   margin-top: 4px;
@@ -648,6 +657,66 @@ strong {
 
 .social-icon-link:hover {
   color: var(--primary-color);
+}
+
+/*---------------------------------------
+  MENU ACORDEÓN STYLES               
+-----------------------------------------*/
+ul.acorh,
+ul.acorh * {
+margin: 0;
+padding: 0;
+border: 0;
+}
+ul.acorh {
+margin: 10px auto;
+padding: 0;
+list-style: none;
+width: 100%;
+font-size: 18px;
+}
+ul.acorh li {
+list-style: none;
+}
+ul.acorh li a {
+font-family: 'Cormorant', serif;
+font-size: 24px;
+display: block;
+padding: 10px 10px 10px 20px;
+border-bottom: 1px solid #008080;
+text-decoration: none;
+box-sizing: border-box;
+color: #008080;
+}
+ul.acorh li p{
+  font-size: 16px;
+  padding: 2% ;
+}
+ul.acorh li ul {
+max-height: 0;
+margin: 0;
+padding: 0;
+list-style: none;
+overflow: hidden;
+transition: .3s all ease-in;
+}
+ul.acorh li li a {
+padding: 10px 10px 10px 40px;
+color: #008080;
+font-size: 16px;
+border: 0;
+border-bottom: 1px solid #008080;
+box-sizing: border-box;
+}
+ul.acorc li li:last-child a {
+border-bottom: 0;
+}
+ul.acorh li:hover ul {
+max-height: 300px;
+transition: .3s all ease-in;
+}
+ul.acorh li a:hover {
+color: #008080;
 }
 
 /*---------------------------------------
@@ -693,6 +762,7 @@ strong {
     padding-top: 6rem;
     padding-bottom: 6rem;
   }
+
 
   .team-thumb {
     left: 0;
