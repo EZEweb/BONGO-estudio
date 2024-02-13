@@ -131,11 +131,6 @@ a:hover {
   background: var(--dark-color);
   color: var(--white-color);
 }
-.custom-underline {
-  border-bottom: 2px solid var(--white-color);
-  color: var(--white-color);
-  padding-bottom: 4px;
-}
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
@@ -238,8 +233,17 @@ strong {
 .navbar-nav .nav-item.active .nav-link,
 .nav-link:focus, 
 .nav-link:hover {
-  color: #008080;
+  color: var(--primary-color);
   text-decoration:underline;
+}
+.link-portfolio{
+  color: var(--white-color);
+  border-bottom: 2px solid var(--white-color);
+  padding-bottom: 4px;
+}
+.link-portfolio:hover{
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
 }
 .nav-link:focus {
   color: var(--p-color);
@@ -357,6 +361,10 @@ strong {
 .section-padding-2 .row .logos img{
   padding: 2%;
 }
+.icon-contact{
+  display: flex;
+  justify-content: center;
+}
 /*---------------------------------------
   SITE FOOTER               
 -----------------------------------------*/
@@ -462,7 +470,7 @@ padding-bottom: 0;
 #accesos ul li i.chevron:before, #accesos ul li i.chevron:after {
 content: "";
 position: absolute;
-background-color: #ff6873;
+background-color:var(--primary-color);
 width: 3px;
 height: 9px;
 }
