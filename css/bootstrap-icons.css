@@ -840,7 +840,7 @@ url("../fonts/bootstrap-icons.woff?856008caa5eb66df68595e734e59580d") format("wo
 .bi-info::before { content: "\f434"; }
 .bi-input-cursor-text::before { content: "\f435"; }
 .bi-input-cursor::before { content: "\f436"; }
-.bi-instagram::before { content: "\f437"; }
+.bi-instagram::before { content: "\f437"; color: white; }
 .bi-intersect::before { content: "\f438"; }
 .bi-journal-album::before { content: "\f439"; }
 .bi-journal-arrow-down::before { content: "\f43a"; }
@@ -899,7 +899,7 @@ url("../fonts/bootstrap-icons.woff?856008caa5eb66df68595e734e59580d") format("wo
 .bi-lightning::before { content: "\f46f"; }
 .bi-link-45deg::before { content: "\f470"; }
 .bi-link::before { content: "\f471"; }
-.bi-linkedin::before { content: "\f472"; }
+.bi-linkedin::before { content: "\f472"; color: white}
 .bi-list-check::before { content: "\f473"; }
 .bi-list-nested::before { content: "\f474"; }
 .bi-list-ol::before { content: "\f475"; }
@@ -1321,7 +1321,7 @@ url("../fonts/bootstrap-icons.woff?856008caa5eb66df68595e734e59580d") format("wo
 .bi-wallet2::before { content: "\f615"; }
 .bi-watch::before { content: "\f616"; }
 .bi-water::before { content: "\f617"; }
-.bi-whatsapp::before { content: "\f618"; }
+.bi-whatsapp::before { content: "\f618"; color: white}
 .bi-wifi-1::before { content: "\f619"; }
 .bi-wifi-2::before { content: "\f61a"; }
 .bi-wifi-off::before { content: "\f61b"; }
